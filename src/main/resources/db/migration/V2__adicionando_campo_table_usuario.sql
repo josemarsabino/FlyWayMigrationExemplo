@@ -1,0 +1,1 @@
+﻿ALTER TABLE usuario ADD cpf varchar(13) NULL;
