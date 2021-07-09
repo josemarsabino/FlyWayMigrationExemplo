@@ -21,6 +21,17 @@ public class Usuario implements Serializable {
 	private String nome;
 
 	private Long idade;
+	
+	private String cpf;
+	
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
+	}
 
 	public Long getId() {
 		return id;
